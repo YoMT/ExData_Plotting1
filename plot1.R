@@ -18,7 +18,7 @@ df$Global_active_power <-as.numeric(df$Global_active_power)
 #set the color of the pot to red
 plot_colors <- c("Red")
 
-#save plot as png file
+#Save plot as png file
 png("plot1.png",width=480, height=240)
 
 #plot a histogram 
