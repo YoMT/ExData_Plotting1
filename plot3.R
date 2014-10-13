@@ -26,7 +26,7 @@ newtime1<-paste(df$Date, df$Time, sep=",")
 
 newtime2<-strptime(newtime1, "%d/%m/%Y,%H:%M:%S")
 
-#set the color of the pot to red
+#set the color of the pot to black, Red and Blue
 
 plot_colors <- c("Black","Red","Blue")
 
